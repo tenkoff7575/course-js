@@ -32,3 +32,11 @@ const wordFromText = prompt('Введите слово из текста');
 const indexOfWord = userText.indexOf(wordFromText);
 const short = userText.slice(0, indexOfWord);
 alert(short);
+
+//additional task
+const javaScriptDescription = 'JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений.'
+const split = javaScriptDescription.length /2;
+const slice = javaScriptDescription.slice(split);
+const uppercase = slice.replaceAll('а', 'А').replaceAll(' ', '').repeat(3);
+const middle = uppercase.length /2;
+console.log(uppercase[middle]);
