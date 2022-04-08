@@ -13,32 +13,32 @@ if (userLogin === existedUserLogin && userPassword === existedUserPassword) {
 //task 2
 
 for (let i = 0; i < 3; i += 1) {
-let newStudent = prompt('Введите имя нового студента!');
-newStudent = newStudent.trim();
+    let newStudent = prompt('Введите имя нового студента!').trim();
+
 if (newStudent) {
-    alert(`Добро пожаловать, ${newStudent}!`)
+    alert(`Добро пожаловать, ${newStudent}!`);
     }
- }
+ };
 
 i = 0;
  while (i < 3) {
-let newStudent = prompt('Введите имя нового студента!');
-newStudent = newStudent.trim();
+    let newStudent = prompt('Введите имя нового студента!').trim();
+
 if (newStudent) {
-    alert(`Добро пожаловать, ${newStudent}!`)
+    alert(`Добро пожаловать, ${newStudent}!`);
     i += 1;
     }
 };
 
 i = 0;
 do {
-let newStudent = prompt('Введите имя нового студента!');
-newStudent = newStudent.trim();
+    let newStudent = prompt('Введите имя нового студента!').trim();
+
 if (newStudent) {
-        alert(`Добро пожаловать, ${newStudent}!`)
-        i += 1;
+    alert(`Добро пожаловать, ${newStudent}!`);
+    i += 1;
     }
-} 
+}
 while (i < 3);
 
 // task 3
@@ -69,7 +69,7 @@ if (question2 === answer2) {
     alert('Ответ Верный');
     correctAnswers ++;
 } else {
-    alert('Ответ Неверный')
+    alert('Ответ Неверный');
     incorrectAnswers ++;
 };
 
@@ -80,7 +80,7 @@ if (question3 === answer3){
     alert('Ответ Верный');
     correctAnswers ++;
 } else {
-    alert('Ответ Неверный')
+    alert('Ответ Неверный');
     incorrectAnswers ++;
 };
 
