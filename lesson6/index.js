@@ -55,7 +55,7 @@ if (question1 === answer1) {
     alert('Ответ Верный');
     correctAnswers ++;
 } else {
-    alert('Ответ Неверный')
+    alert('Ответ Неверный');
     incorrectAnswers ++;
 };
 
@@ -88,7 +88,7 @@ if (question4 === answer4) {
     alert('Ответ Верный');
     correctAnswers ++;
 } else {
-    alert('Ответ Неверный')
+    alert('Ответ Неверный');
     incorrectAnswers ++;
 };
 
@@ -99,7 +99,7 @@ if (question5 === answer5) {
     alert('Ответ Верный');
     correctAnswers ++;
 } else {
-    alert('Ответ Неверный')
+    alert('Ответ Неверный');
     incorrectAnswers ++;
 };
 
